@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A layout example that shows off a blog page with a list of posts.">
+
+    <title>purecss لايىھەسى </title>
+
+    
+
+<link rel="stylesheet" href="css/layouts/pure-min.css">
+
+
+
+<!--[if lte IE 8]>
+  
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
+  
+<![endif]-->
+<!--[if gt IE 8]><!-->
+  
+    <link rel="stylesheet" href="css/layouts/grids-responsive-min.css">
+  
+<!--<![endif]-->
+
+
+  
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/blog-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/blog.css">
+    <!--<![endif]-->
+  
+            <script src="parse-1.3.4.min.js"></script>
+    <script type="text/javascript">
+Parse.initialize("hQWftQt5eQRpD42DoAt5a1qtkbj5ELxzc3Wf0day", "PVs8bX49QkDWCyoSa6P2g3TeUj6JH1Xrb0m5sY8g");
+
+    var count=0;
+        function load () {
+            var cls=count++;
+            console.log(cls);
+        }
+        load();
+var dimensions = {
+  // What type of news is this? 
+  category: 'politics',
+  // Is it a weekday or a weekend?
+  dayType: 'weekday'
+};
+// Send the dimensions to Parse along with the 'search' event
+ 
+Parse.Analytics.track('read', dimensions);
+    </script>
+
+
+</head>
+<body>
+
+
+
+
+
+
+
+<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+        <div class="header">
+            <h1 class="brand-title">تورماھىرى بىلوگى</h1>
+            <h2 class="brand-tagline">تورماھىرى كۆچمە ئۈسكۈنىلەرگە  ئەپ ئاچقۇچى،توربىكەت لايھىەلىگۈچى.</h2>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="pure-button" href="https://github.com/tormahiri">ئالاقە </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="pure-button" href="http://yuilibrary.com">لايىھەلەر  </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+        <div>
+            <!-- A wrapper for all the blog posts -->
+            <div class="posts">
+                <h1 class="content-subhead">ئەڭ يېڭىسى </h1>
+
+                <!-- A single blog post -->
+                <section class="post">
+                    <header class="post-header">
+                        <img class="post-avatar" alt="Tilo Mitra&#x27;s avatar" height="48" width="48" src="img/common/tilo-avatar.png">
+
+                        <h2 class="post-title">ئوڭدىن سولغا باشلىنىدىغان تىللار تىزىملىكى</h2>
+
+                        <p class="post-meta">
+                           كومپيۇتېر يۇمشاق دېتاللىرى بولمىسۇن ياكى كۆچمە ئۈسكۈنە ئەپلىرى بولمىسۇن ،تىل يىزىقنىڭ قايسىى تەرەپتىن باشلىنىشى دېتال ئىچىش ياكى توربىكەت ياساش ئىشلىرىدا ئىشلەتكۈچى كۆرۈنمە يۈزىگە ئىنتايىن قاتتىق تەسىر كۆرسىتىدۇ،چۈنكى ،پىروگىرامما لايھىلەشتە ئىشلىتىدىغان مۇھىتلار ياكى رامكىلار بولمىسۇن ئەسلى ھالىتىدە سول تەرەپنى ئاساس قىلغان بولغاچ يىزىقى ئوڭدىن باشلانغان مىللەتلەرگە نورغۇن قولايسىزلىقلارنى كەلتۈرىدۇ، بولۇپمۇ ئىشلەتكۈچى كۆرۈنمە يۈزى لايىھەلىگەندە ھەممە قۇرۇلمىلارنى ئوڭغا توغۇرلۇشقا توغرا كىلىدۇ، شۇ سەۋەبتىن بەزى نەرسىلەرنى تەتقىق قىلىش دۋامىدا بىر قىسىم ماتىرياللارنى ئىزدەپ كۆرۈدۈم ،خۇسۇسەن android ئەپ ئىچىشتا بەزى قۇرۇلمىلارنىڭ ئەسلى ھالىتىدە سولدىن باشلانغانلىقى ئۈچۈن دۇنيادىكى يەنە قايسى مىللەت ئوڭدىن باشلانغان يىزىقنى قوللىنىدۇ، ئاندىن شۇ ئارقىلىق مەن ئۆزۈمگە لازىملىق بولغان بەزى قۇرۇلمىلارنىڭ يىزىقى ئوڭدىن باشلىنىدىغان باشقا مىللەتلەرنىڭ توربىكەتلىرىدىن تاپماقچى بولدۇم، ئەپسۇسلنارلىقى شۇكى يۇمشاق دېتال ئىچىشتا قوللىنىدىغان ماتىرياللار يىزىقى ئوڭدىن باشلانغان مىللەتلەرنىڭ توربىكەتلىرىدىن ئاساسەن تىپىلمايدىغان دەرىجىدە بولۇپ چىقىتى ،بۇلارنى ئىزدەش جەريانىدا ئۇچىرىغان يىزىقى ئوڭدىن سولغا تىللارنىڭ تىزىملىكىنى بۇيەردە كۆپچىلىك بىلەن ئورتاقلاشماقچى بولدۇم 
+                           <a href="http://tormahiri.github.io/blog">تولۇق ئوقۇش ...</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                        ‘ar’ => ‘العربية’, Arabic ‘arc’ => ‘ܐܪܡܝܐ’, Aramaic ‘bcc’ => ‘بلوچی مکرانی’, Southern Balochi ‘bqi’ => ‘بختياري’, Bakthiari ‘ckb’ => ‘Soranî / کوردی’, Sorani ‘dv’ => ‘ދިވެހިބަސް’, Dhivehi ‘fa’ => ‘فارسی’, Persian ‘glk’ => ‘گیلکی’, Gilaki ‘he’ => ‘עברית’, Hebrew ‘ku’ => ‘Kurdî / كوردی’, Kurdish ‘mzn’ => ‘مازِرونی’, Mazanderani ‘pnb’ => ‘پنجابی’, Western Punjabi ‘ps’ => ‘پښتو’, Pashto, ‘sd’ => ‘سنڌي’, Sindhi ‘ug’ => ‘Uyghurche / ئۇيغۇرچە’, Uyghur ‘ur’ => ‘اردو’, Urdu ‘yi’ => ‘ייִדיש’, Yiddish 
+ئاخرىدا يۇمشاق دېتال ئاچقۇچىلارغا مۇشۇ جەھەتتە ئىزدىنىپ باقماقچى بولغانلارغا تۆۋەندىكىدەك ھالقىلىق سۆزلەرنى قالدۇرۇپ قويۇشنى لايىق تاپتىم ،بۇلار تۆۋەندىكىچە ،بۇ ھالقىلىق سۆزلەر ئارقىلىق يىزىقى ئوڭدىن سولغا باشلانغان تىللاردىن ئوڭ تەرەپ لايىھەسىگە مۇناسىۋەتلىك ئۇچۇرلارغا ئىرشكىلى بولىدۇ
+                        </p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="posts">
+                <h1 class="content-subhead">ئەڭ يېڭىسى </h1>
+
+                <section class="post">
+                    <header class="post-header">
+                        <img class="post-avatar" alt="Eric Ferraiuolo&#x27;s avatar" height="48" width="48" src="img/common/ericf-avatar.png">
+
+                        <h2 class="post-title">سانلىق مەلۇمات دىئاگىرامى لايىھەلەش</h2>
+
+                        <p class="post-meta">
+                          لايىھەلىگەن دىئاگىرامنى sql ۋە xml شەكىلدە چىقارغىلى بولىدۇ،بۇبىكەت سانلىق مەلۇمات ئامبىرى لايىھەسىدە سىز بىزلەرگە كۆپ قولايلىقلارنى ئىپ كىلىشى مومكىن ئادرىسى:http://ondras.zarovi.cz/sql/demo/ بۇنى سىنىغاندا ئەڭ ياخشىسى Google Chromeتوركۆرگۈسىنى ئىشلىتىشىڭزنى تەۋسىيە قىلىمەن!
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                           سانلىق مەلۇمات دەيدىغان بۇئاتالغۇ كۆپىنچە كىشىلەر قىززىقماسلىقى مۇمكىن ئەمما مەن ئىنتايىن قىززىقەن،بىكەت ئاچقاندا سانلىق مەلۇمات بىرتەرەپ قىلىش ئىنتايىن مۇھىم ۋە شۇنداقلا مۇرەككەپ چىگىچ بىر مەسىلە،سانلىق مەلۇمات ئامبىرى قۇرۇشتىن بۇرۇن سانلىق مەلۇمات دىئاگىرامىنى لايىھەلەش ئارقىلىق ۋاقىت ۋە چىگىچلىكنىڭ ئالدىنى ئالغىلى بولىدۇ ئەمدى مەقسىتىمگە كەلسەك،سانلىق مەلۇمات دىئاگىرامى لايىھەلەيدىغان قوراللار كۆپ بولسىمۇ،بۇلارنى ئىشلەتكۈچى كومپيۇتېرىغا قاچىلاشنى ياخشى كۆرمەسلىكى مۇمكىن،تۆۋەندىكى بىكەت ئارقىلىق بىز سانلىق مەلۇمات دىئاگىرامىنى توردىلا لايىھەلەلەيمىز ،مەن لايىھەلىگەندىن بىرمىسال
+                        </p>
+                    </div>
+                </section>
+
+                <section class="post">
+                    <header class="post-header">
+                        <img class="post-avatar" alt="Reid Burke&#x27;s avatar" height="48" width="48" src="img/common/reid-avatar.png">
+
+                        <h2 class="post-title">بىر قىسىم رەسىملەر </h2>
+
+                        <p class="post-meta">
+                            By <a class="post-author" href="#">Reid Burke</a> under <a class="post-category" href="#">Uncategorized</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <div class="post-images pure-g">
+                            <div class="pure-u-1 pure-u-md-1-2">
+                                <a href="http://www.flickr.com/photos/uberlife/8915936174/">
+                                    <img alt="Photo of someone working poolside at a resort"
+                                         class="pure-img-responsive"
+                                         src="http://farm8.staticflickr.com/7448/8915936174_8d54ec76c6.jpg">
+                                </a>
+
+                                <div class="post-image-meta">
+                                    <h3>دىڭىز ساھىلى  </h3>
+                                </div>
+                            </div>
+
+                            <div class="pure-u-1 pure-u-md-1-2">
+                                <a href="http://www.flickr.com/photos/uberlife/8907351301/">
+                                    <img alt="Photo of the sunset on the beach"
+                                         class="pure-img-responsive"
+                                         src="http://farm8.staticflickr.com/7382/8907351301_bd7460cffb.jpg">
+                                </a>
+
+                                <div class="post-image-meta">
+                                    <h3>كەچكى شەپەق  </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="post">
+                    <header class="post-header">
+                        <img class="post-avatar" alt="Andrew Wooldridge&#x27;s avatar" height="48" width="48" src="img/common/andrew-avatar.png">
+
+                        <h2 class="post-title">nodejs زادى نىمە؟</h2>
+
+                        <p class="post-meta">
+                            By <a class="post-author" href="#">تورماھىرى  <a class="post-category post-category-yui" href="http://tormahiri.github.io/blog/javascript/2014/11/23/nodejs-hakkida-tormahiri.html">node.js</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                           javascript نىڭ تەرەققى قىلىپ ئۆسۈشى بىلەن نورغۇن نەرسىلەرگە ئۆزگەرتىش ئىلىپ كەلدى،بۆگۈنكى تورتېخنكىسنى گۈللەندۈرۈش رىقابىتىمۇ ئوخشاش ئەمەس،بىز بىرقانچە يىللار ئىلگىرى ئويلاشمۇ تەس بولغان ئىشنى بۆگۈن بىز node.js بىلەن قىلالايمىز،javascript نى توركۆرگۈچتە ئىشلەتكەنگە ئوخشاشلار مۇلازىمىتىر تەرەپتىمۇ قوللىنالايمىز،ئەمىليەتتە بىز نورغۇن يىللار ئىلگىرى بۇنى ئويلاشمۇ تەس ئىدى ،چۈنكى بىز flash ياكى java applet قۇتىسىغا سولىنىپ قالغان ئىدۇق،لىكىن ھازىر ئۇنداق ئەمەس
+                        </p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="footer">
+                <div class="pure-menu pure-menu-horizontal pure-menu-open">
+                    <ul>
+                        <li><a href="http://tormahiri.github.io/-">مەن كىم ؟</a></li>
+                        <li><a href="http://tormahiri.github.io/blog">بىلوگىم </a></li>
+                        <li><a href="http://tormahiri.github.io/-">تۈرلىرىم </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
